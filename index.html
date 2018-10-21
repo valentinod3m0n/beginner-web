@@ -15,7 +15,31 @@
     <h1>Bienvenidos a mi primera web<h1>
   </header>
   <nav></nav>
-  <main></main>
+  <main>
+    <section>
+      <form method="get" action="process.php">
+        <p>
+          <label for="nombre">Nombre: </label>
+          <input type="text" name="nombre" id="nombre" maxlength="20">
+        </p>
+        <p>
+          <label for="edad">Edad: </label>
+          <input type="text" name="edad" id="edad">
+        </p>
+        <p>
+          <label for="fecha">Fecha: </label>
+          <input type="date" name="fecha" value="2018-10-21">
+        </p>
+        <p>
+          <label for="texto">Texto: </label>
+          <textarea name="texto"></textarea>
+        </p>
+        <p>
+          <input type="submit" name="enviar" value="Enviar">
+        </p>
+      </form>
+    </section>
+  </main>
   <aside></aside>
   <footer>
     &copy; Derechos Reservados 2018.
